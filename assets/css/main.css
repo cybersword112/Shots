@@ -237,6 +237,14 @@ input, select, textarea {
 }
 
 
+#reslist{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
 #titleresultdiv{
 	padding-left:1%;
 	padding-right: 2%;
