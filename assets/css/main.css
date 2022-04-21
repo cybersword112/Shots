@@ -256,6 +256,7 @@ input, select, textarea {
 }
 
 #titleresultdiv > #titleresultlist {
+	color: white;
 	list-style: none;
 	display: flex;
 	flex-direction: row;
@@ -273,9 +274,21 @@ input, select, textarea {
 #titleResultItem > :hover{
 	color: gray;
 }
+#anchorhighlight :hover{
+	color: grey;
+	border:solid red 2px;
+}
 
 #titleResultItem > a{
 	color: white;
+}
+#instructions{
+	color:white;
+	list-style: none;
+}
+#ingredient{
+	display: block;
+	width: 100%;
 }
 
 /* Container */
