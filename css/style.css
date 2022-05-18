@@ -1,0 +1,84 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+html{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background-image: linear-gradient(rgb(106, 119, 156),rgba(60, 185, 207, 0.753));
+}
+
+header{
+  width: 100%;
+  background-color: rgba(230, 234, 235, 0.842);
+  height:fit-content;
+  min-height: fit-content;
+  max-height: max-content;
+}
+nav{
+  height:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  vertical-align: middle;
+  /* position: fixed; */
+}
+#name{
+  font-size: 1rem;
+  font-weight: 200;
+  font-style: italic;
+}
+main{
+  height: 100%;
+}
+#searchSection{
+  padding-top: 10%;
+  text-align: center;
+  align-content: center;
+}
+.frostedGlass{
+  border-radius: 8px;
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 1.5em 1.5em;
+  width:fit-content;
+}
+#resultSection{
+  display: flex;
+  flex-direction: row;
+  max-width: 80%;
+  height: 100%;
+}
+#resList{
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+#titleResultItem{
+  max-width: 25%;
+}
+
+.image .fit{
+}
